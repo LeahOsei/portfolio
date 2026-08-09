@@ -295,7 +295,7 @@ section.first { margin-top: 40px; }
 .project-block img.shot {
   width: 80%;
   max-width: 450px;
-  height: 220px;
+  height: 235px;
   object-fit: cover;
   border-radius: 6px;
   border: 1px solid var(--line-bright);
