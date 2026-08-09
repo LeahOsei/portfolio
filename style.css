@@ -95,7 +95,7 @@ a:hover { text-decoration: underline; }
   color: var(--teal);
   text-decoration: none;
 }
-.nav-links a.active::before { content: "> "; color: var(--teal); }
+.nav-links a.active::before { content: " "; color: var(--teal); }
 .nav-cta {
   font-family: var(--mono);
   font-size: 12.5px;
