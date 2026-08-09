@@ -527,3 +527,30 @@ footer {
 @media (prefers-reduced-motion: reduce) {
   .cursor { animation: none; }
 }
+/* ---------------- Contact link buttons ---------------- */
+.contact-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.contact-link:hover {
+  border-color: var(--teal);
+  color: var(--teal);
+  text-decoration: none;
+}
+
+.contact-link img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.contact-link span {
+  font-size: 15px;
+}
