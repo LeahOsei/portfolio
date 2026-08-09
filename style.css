@@ -95,7 +95,7 @@ a:hover { text-decoration: underline; }
   color: var(--teal);
   text-decoration: none;
 }
-.nav-links a.active::before { content: " "; color: var(--teal); }
+.nav-links a.active::before { content: "> "; color: var(--teal); }
 .nav-cta {
   font-family: var(--mono);
   font-size: 12.5px;
@@ -285,6 +285,19 @@ section {
 section.first { margin-top: 40px; }
 
 /* ---------------- Project blocks ---------------- */
+.projects-row-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+.projects-row-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+.projects-row-bottom .project-block {
+  width: calc(50% - 14px);
+}
 .project-block {
   background: var(--bg-raised);
   border: 1px solid var(--line);
@@ -519,6 +532,8 @@ footer {
   .hero-text h1 { font-size: 30px; }
   .qa-grid { grid-template-columns: 1fr; }
   .cert-card { flex-direction: column; }
+  .projects-row-top { grid-template-columns: 1fr; }
+  .projects-row-bottom .project-block { width: 100%; }
 }
 
 @media (prefers-reduced-motion: reduce) {
