@@ -321,6 +321,22 @@ section.first { margin-top: 40px; }
   grid-template-columns: 1fr;
   margin-top: 0;
 }
+.project-body {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin-top: 16px;
+}
+.project-body img.shot {
+  width: 42%;
+  flex-shrink: 0;
+  margin: 0;
+}
+.project-body .qa-grid {
+  flex: 1;
+  grid-template-columns: 1fr;
+  margin-top: 0;
+}
 .project-block img.shot {
   width: 100%;
   border-radius: 6px;
@@ -549,7 +565,10 @@ footer {
   .qa-grid { grid-template-columns: 1fr; }
   .cert-card { flex-direction: column; }
   .projects-row-top { grid-template-columns: 1fr; }
-  .projects-row-bottom .project-block { width: 100%; }
+ .projects-row-bottom .project-block { width: 100%; }
+  .project-body { flex-direction: column; }
+  .project-body img.shot { width: 100%; }
+}
   .project-body { flex-direction: column; }
   .project-body img.shot { width: 100%; }
 }
