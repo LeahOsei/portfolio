@@ -48,7 +48,7 @@ a { color: var(--teal); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
 .wrap {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
 }
@@ -63,7 +63,7 @@ a:hover { text-decoration: underline; }
   z-index: 50;
 }
 .nav-inner {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 16px 24px;
   display: flex;
@@ -287,7 +287,7 @@ section.first { margin-top: 40px; }
 /* ---------------- Project blocks ---------------- */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
   align-items: stretch;
 }
@@ -296,7 +296,7 @@ section.first { margin-top: 40px; }
   background: var(--bg-raised);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 20px;
+  padding: 18px;
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
@@ -306,7 +306,7 @@ section.first { margin-top: 40px; }
   width: 100%;
   border-radius: 6px;
   border: 1px solid var(--line-bright);
-  margin: 12px 0 16px;
+  margin: 10px 0 14px;
   display: block;
   aspect-ratio: 16 / 9;
   object-fit: cover;
